@@ -1,0 +1,32 @@
+{
+  "name": "it-tool",
+  "version": "1.0.0",
+  "description": "A tool that updates local IP addresses to Alibaba Cloud DNS and Security Group rules",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "alibaba-cloud",
+    "dns",
+    "security-group",
+    "ip-update"
+  ],
+  "author": "IT-Tool Developer",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@alicloud/alidns20150109": "^4.4.0",
+    "@alicloud/ecs20140526": "^7.7.3",
+    "@alicloud/openapi-client": "^0.4.8",
+    "@alicloud/tea-console": "^1.0.0",
+    "@alicloud/tea-typescript": "^1.5.1",
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.2",
+    "internal-ip": "^6.2.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
